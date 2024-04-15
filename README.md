@@ -30,3 +30,11 @@ npm run build
 ```
 npm run lint
 ```
+### node 18 + instructions
+after running npm install and npm run serve , i got ssl error message (bug fixed node 17+)
+to get the code to run I ran
+```
+npm audit fix --force
+```
+
+and changed the eslint version to 7.5.0 as in this fork
